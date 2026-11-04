@@ -171,8 +171,8 @@
     return Bio.verifyIdentity({
       title: 'افتح دفترة',
       subtitle: 'بالبصمة أو برمز قفل الجوال',
-      // 4 = أي بصمة/وجه، 7 = رمز قفل الجوال (PIN أو النمط) بديلًا
-      allowedBiometryTypes: [4, 7],
+      // يسمح بالتحقق برمز قفل الجوال (PIN أو النمط) إن لم تكن هناك بصمة مسجّلة
+      useFallback: true,
       maxAttempts: 5
     }).then(function () { return true; }, function () { return false; });
   };
