@@ -1,0 +1,14 @@
+{
+  "appId": "com.makeflow.daftara",
+  "appName": "دفترة",
+  "webDir": "public",
+  "android": {
+    "backgroundColor": "#0e7a51"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_daftara",
+      "iconColor": "#0E7A51"
+    }
+  }
+}

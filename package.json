@@ -1,0 +1,21 @@
+{
+  "name": "daftara-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daftara Android wrapper built from the modified web assets",
+  "scripts": {
+    "build:android": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/app": "^7.1.0",
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/filesystem": "^7.1.4",
+    "@capacitor/local-notifications": "^7.0.3",
+    "@capacitor/share": "^7.0.2",
+    "@capgo/capacitor-native-biometric": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
